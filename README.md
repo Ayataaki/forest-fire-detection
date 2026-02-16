@@ -14,6 +14,7 @@ Clone the repository and install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 ---
@@ -22,27 +23,28 @@ pip install -r requirements.txt
 ```markdown
 ## Dataset Ingestion
 To download the wildfire dataset:
+```
 
 ```bash
 python scripts/download_wildfire.py
+```
 
 
 ---
 
 ### 5. Data Exploration
-```markdown
+
 ## Data Exploration
 Start Jupyter Notebook and open:
 
 ```bash
 jupyter notebook notebooks/01_data_exploration.ipynb
-
+```
 
 
 ---
 
 ### 6. Usage Example
-```markdown
 ## Usage Example
 - Run `scripts/download_wildfire.py` to fetch data.
 - Explore images in `notebooks/01_data_exploration.ipynb`.
