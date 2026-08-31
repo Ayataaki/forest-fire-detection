@@ -1,0 +1,7 @@
+data/raw/
+data/processed/
+models/
+*.h5
+*.pkl
+__pycache__/
+*.pyc
