@@ -1,28 +1,7 @@
-# Data
 data/raw/
 data/processed/
-*.csv
-*.zip
-
-# Credentials
-.env
-kaggle.json
-
-# Python
+models/
+*.h5
+*.pkl
 __pycache__/
-*.py[cod]
-*$py.class
-venv/
-.venv/
-
-# Logs
-logs/
-*.log
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# IDE
-.vscode/
-.idea/
+*.pyc
